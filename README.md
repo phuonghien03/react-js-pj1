@@ -11,7 +11,7 @@ git clone https://github.com/thanhtai0304/react-js.git
 1. Add project into visual studio code
 
 2. cd myreads
-cd myreads
+cd react-js-pj1
 
 
 3. Install the dependencies.
