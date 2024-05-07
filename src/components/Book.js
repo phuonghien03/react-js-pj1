@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from 'prop-types';
 
 const shelves = [
     {
@@ -53,4 +54,8 @@ const Book = ({ book, updateBookShelf }) => {
     )
 }
 
+Book.propTypes = {
+    book: PropTypes.object,
+    updateBookShelf: PropTypes.func
+}
 export default Book;

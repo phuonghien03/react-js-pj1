@@ -1,5 +1,6 @@
 import React from "react";
 import BookShelf from "./BookShelf";
+import PropTypes from 'prop-types';
 
 const BookShelves = ({ books, updateBookShelf }) => {
     const currentlyReading = books.filter((book) => book.shelf === "currentlyReading" || book.shelf === undefined);
@@ -30,6 +31,11 @@ const BookShelves = ({ books, updateBookShelf }) => {
             ))}
         </div>
     )
+}
+
+BookShelves.propTypes = {
+    books: PropTypes.array,
+    updateBookShelf: PropTypes.func
 }
 
 export default BookShelves;
