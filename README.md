@@ -13,26 +13,24 @@ Each book has a control that lets the user select the shelf for that book. When 
 
 The search page has a text input field that may be used to find books. As the value of the text input changes, the books that match that query are displayed on the page, along with a control that lets the user add the book to their library.
 
-## Project Setup
-
+## How to run the project
 1. Clone project
 ```
-https://github.com/phuonghien03/react-js-pj1.git
+$ git clone https://github.com/phuonghien03/react-js-pj1.git
 ```
 
-## Intall the app
-1. Add project into visual studio code
+2. Add project into visual studio code
 
-2. cd myreads
+3. cd to repository folder
 ```
 cd react-js-pj1
 ```
 
-3. Install the dependencies.
+4. Install the dependencies.
 ```
 npm install or yarn install
 ```
-4. Start project
+5. Start project
 ```
 npm start or yarn start
 ```
